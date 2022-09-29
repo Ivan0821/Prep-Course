@@ -87,7 +87,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var x = (num) ; y = (num)
+  var x = (num) , y = (num)
   x % y
 }
 
@@ -109,6 +109,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+  var num = (num)
   Math.pow(num,2);
   
 }
