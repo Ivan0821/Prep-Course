@@ -87,7 +87,8 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+  var x = (num) ; y = (num)
+  x % y
 }
 
 function esPar(num) {
@@ -115,6 +116,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  var numero = (num)
   Math.pow(num,3);
   
 }
@@ -122,12 +124,15 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  
+  var num = (num) , exponent = (num)
+  Math.pow(num,exponent);
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
+  var num = (num)
+  Math.round(num)
   
 }
 
