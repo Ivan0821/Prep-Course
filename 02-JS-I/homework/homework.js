@@ -69,7 +69,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-    if (x = y) {
+    if (x === y) {
     return true;
     }
  
@@ -81,9 +81,9 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var x = (str1.lenght) , y = (str2.lenght)
-   if (x = y) {
+  if (x === y) {
      return true;
-    }
+  }
   return false;
 }
 
@@ -91,11 +91,11 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  var x = (menosQueNoventa)
-   if (x < 90) {
+  
+   if (num < 90) {
      return true;      
-    }
-  return false;
+   }
+   return false;
 }
 
 function mayorQueCincuenta(num) {
@@ -133,7 +133,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var num = (num)
+  
   Math.pow(num,2);
   
 }
@@ -141,7 +141,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var numero = (num)
+
   Math.pow(num,3);
   
 }
@@ -149,14 +149,14 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  var num = (num) , exponent = (num)
+ 
   Math.pow(num,exponent);
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  var num = (num)
+ 
   Math.round(num)
   
 }
@@ -164,8 +164,8 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  var x = (num)
-  Math.ceil(x)
+  
+  Math.ceil(num)
 }
 
 function numeroRandom() {
