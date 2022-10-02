@@ -103,10 +103,10 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-   if (mayorQueCincuenta > 50) {
-     return true ;
-    }
-  else return false ;
+   if (num > 50) {
+     return true;
+   }
+  return false;
 }
 
 function obtenerResto(x, y) {
