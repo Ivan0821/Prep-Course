@@ -112,7 +112,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return (x % y)
+  return (x % y);
 }
 
 function esPar(num) {
@@ -186,11 +186,12 @@ function redondearHaciaArriba(num) {
 
 }
 
-function numeroRandom() {
-  //Generar un número al azar entre 0 y 1 y devolverlo
-  //Pista: investigá qué hace el método Math.random()
-  
-}
+  function numeroRandom() {
+    //Generar un número al azar entre 0 y 1 y devolverlo
+    //Pista: investigá qué hace el método Math.random()
+    return Math.random * (1 - 0) - 0;
+    
+  }
 
 function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
