@@ -331,6 +331,7 @@ El símbolo "mayor que" (`>`) que ve en el último ejemplo se llama *Operador de
 
 ## Recursos adicionales
 
+
 * [Codecademy: Learn Javascript](https://www.codecademy.com/learn/learn-javascript)
 * [Udacity: Intro to Javascript](https://www.udacity.com/course/intro-to-javascript--ud803)
 * [MDN: Official Javascript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
