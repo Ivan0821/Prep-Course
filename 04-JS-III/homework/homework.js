@@ -27,7 +27,9 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  
+  for (i = 0 ; i >= (array.length - 1); i++) {
+    return (array[i] + 1);
+  }
 
 }
 
@@ -111,7 +113,11 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  
+  var array = [n]
+  if (array [0][0] === 9) {
+    return true;
+  }
+  return false;
 }
 
 
